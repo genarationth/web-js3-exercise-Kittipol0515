@@ -1,5 +1,18 @@
 // Exercise 1
 
+const numTransactions = 10;
+const totalAmountSpent = 500;
+
+
+const transactionFees = numTransactions * 3;
+const interestFees = totalAmountSpent * 0.01;
+
+
+const totalCost = transactionFees + interestFees;
+
+
+console.log(`Maria should be paying $${totalCost.toFixed(2)}.`);
+
 
 
 
