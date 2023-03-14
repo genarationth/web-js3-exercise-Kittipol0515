@@ -21,11 +21,6 @@ const birthYear = 1990;
 const age = calculateAge(birthYear);
 console.log(age);
 
-
-
-
-
-
 // part 3
 function greeting(name1 , age1 , name2 , age2 , name3 , age3 ) {
     console.log('Welcome' + name1 +  ", you are" + age1 + ".Welcome" + name2 + ", you are" + age2 + ".Welcome" + name3 + ", you are" + age3);
